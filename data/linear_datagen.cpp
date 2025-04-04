@@ -44,7 +44,7 @@ int main(){
 	);
 
 	/* write data to file */
-	std::ofstream file("data.csv");
+	std::ofstream file("linear_data.csv");
 	for(std::size_t j = 0; j < n_data; j++){
 		file << xvec[j] << "," << yvec_hat[j] << "\n";
 	}
